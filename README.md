@@ -18,6 +18,18 @@ Click on the create codespace button
 
 
 
+
+
 ## deploy to github pages
 
+Go to Settings
+![Settings button](instructionimages/image.png)
 
+Go to Pages
+
+![alt text](instructionimages/image-1.png)
+
+
+Set branch to Main and save
+
+![alt text](instructionimages/image-2.png)
