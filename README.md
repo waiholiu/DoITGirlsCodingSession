@@ -18,13 +18,14 @@ Click on the create codespace button
 
 ![alt text](instructionimages/codespace.png)
 
-## Select a game you want to make
 
-Ok so there's two games you can try out depending on your interest. The Quiz game and the Snake game. 
+## Create your Quiz game
 
-### Quiz game
+1. Create a file called index.html 
 
-1. Create a file called index.html and put the following code
+![alt text](instructionimages/CreateNewFile.png)
+
+Paste in the following code
 
 ```
 <html lang="en">
@@ -442,16 +443,6 @@ const questions = [
 
 
 
-### Snake game
-
-Create a 
-
-
-
-
-
-
-
 
 ## Testing out the game
 
@@ -464,6 +455,7 @@ Right click on the file you want and click Open with Live Server
 ## deploy to github pages
 
 Go to Settings
+
 ![Settings button](instructionimages/image.png)
 
 Go to Pages
@@ -480,23 +472,202 @@ Give it a minute - navigate to https://<yourusername>.github.io/<reponame> and y
 
 
 
-## additional challenges
+## Additional Challenges
 
 ## Quiz 
 -  How can I add a title to the page
--  
+-  Can you give your quiz a title?
+-  Can you style it to make it look nicer?
+-  Can you design your own quiz
+
+## Snake Game
+
+Alternatively, if you're sick of the quiz game, lets create another game. We'll make a Snake Game this time.
+
+1. Create another file called index-snake.html. PAste the following code in
+
+```
+<html>
+    <head>
+        <script src="snake.js"></script>
+
+    </head>
+    <body>
+        <canvas id="gc" width="400" height="400"></canvas>
+        <div id="variables"></div>
+    </body>
+</html>
+```
+
+2. Create another file called snake.js and paste the following code in
+
+```
+
+window.onload = function () {
+
+    canv = document.getElementById("gc");
+
+    ctx = canv.getContext("2d");
+
+    document.addEventListener("keydown", keyPush);
+
+    setInterval(game, 1000 / 15);
+
+}
+
+playerX = playerY = 10;
+
+gridSize = 20;
+tileCount = 20;
+
+appleX = appleY = 15;
+
+xVelocity = yVelocity = 0;
+
+trail = [];
+
+tailLength = 5;
+
+function game() {
+
+    playerX += xVelocity;
+
+    playerY += yVelocity;
+
+    if (playerX < 0) {
+
+        playerX = tileCount - 1;
+
+    }
+
+    if (playerX > tileCount - 1) {
+
+        playerX = 0;
+
+    }
+
+    if (playerY < 0) {
+
+        playerY = tileCount - 1;
+
+
+    }
+
+    if (playerY > tileCount - 1) {
+
+        playerY = 0;
+
+    }
+
+    ctx.fillStyle = "black";
+
+    ctx.fillRect(0, 0, canv.width, canv.height);
 
 
 
-### Snake Game
+    ctx.fillStyle = "lime";
+
+    for (var i = 0; i < trail.length; i++) {
+
+        ctx.fillRect(trail[i].x * gridSize, trail[i].y * gridSize, gridSize - 2, gridSize - 2);
+
+        if (trail[i].x == playerX && trail[i].y == playerY) {
+
+            tailLength = 5;
+
+        }
+
+    }
+
+    trail.push({ x: playerX, y: playerY });
+
+    while (trail.length > tailLength) {
+
+        trail.shift();
+
+    }
+
+
+
+    if (appleX == playerX && appleY == playerY) {
+
+        tailLength++;
+
+        appleX = Math.floor(Math.random() * tileCount);
+
+        appleY = Math.floor(Math.random() * tileCount);
+
+    }
+
+    ctx.fillStyle = "red";
+
+    ctx.fillRect(appleX * gridSize, appleY * gridSize, gridSize - 2, gridSize - 2);
+
+    // Get the variables area
+    var variablesArea = document.getElementById("variables");
+
+    // Output the variables
+    variablesArea.innerHTML = 
+        "Player X: " + playerX + "<br>" +
+        "Player Y: " + playerY + "<br>" +
+        "Grid Size: " + gridSize + "<br>" +
+        "Tile Count: " + tileCount + "<br>" +
+        "Apple X: " + appleX + "<br>" +
+        "Apple Y: " + appleY + "<br>" +
+        "X Velocity: " + xVelocity + "<br>" +
+        "Y Velocity: " + yVelocity + "<br>" +
+        "Tail Length: " + tailLength;
+
+}
+
+function keyPush(evt) {
+
+    switch (evt.keyCode) {
+
+        case 37:
+
+            xVelocity = -1; yVelocity = 0;
+
+            break;
+
+        case 38:
+
+            xVelocity = 0; yVelocity = -1;
+
+            break;
+
+        case 39:
+
+            xVelocity = 1; yVelocity = 0;
+
+            break;
+
+        case 40:
+
+            xVelocity = 0; yVelocity = 1;
+
+            break;
+
+    }
+
+}
+```
+
+
+Use the live server and get it working again!
+
+## Additional cHallenges for snake game
 
 - How can I change the colours of the dots and the background?
 - How can I slow down or speed up the snake?
-- How can I add a title to the page
 
 
 
+## Resources
 
+Youtube video explanation of how to make the Snake Game (https://www.youtube.com/watch?v=xGmXxpIj6vs)
 
+Youtube video explanation of how to make the quiz (https://www.youtube.com/watch?v=riDzcEQbX6k)
 
+More games you can make for yourself (https://www.youtube.com/watch?v=xGmXxpIj6vs)
 
