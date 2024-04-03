@@ -669,5 +669,5 @@ Youtube video explanation of how to make the Snake Game (https://www.youtube.com
 
 Youtube video explanation of how to make the quiz (https://www.youtube.com/watch?v=riDzcEQbX6k)
 
-More games you can make for yourself (https://www.youtube.com/watch?v=xGmXxpIj6vs)
+More games you can make for yourself (https://www.ansoriweb.com/2020/03/javascript-game.html)
 
