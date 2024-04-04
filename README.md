@@ -4,7 +4,50 @@ Today we are going to make our first game! How exciting!
 
 ## Register for Github
 
-Todo - add instructions to register for github
+Please follow these steps to register for GitHub. You only need an email address to sign up.
+
+1. Go to https://github.com
+
+2. Click on Sign Up
+
+![Sign-Up](./instructionimages/01-signup.png)
+
+3. Fill in your email address
+
+![Email](./instructionimages/02-email.png)
+
+4. Create a password
+
+![Password](./instructionimages/03-password-2.png)
+
+5. Choose a username
+
+![Username](./instructionimages/04-username.png)
+
+6. Leave the email prefernces unticked and click on the green button to Continue
+
+![Email Preferences](./instructionimages/05-prefs.png)
+
+7. Click on the Verify button to start the puzzle. This puzzle is essential to prove that the user is a human and not a robot. You will need to match the picture on the left with the correct picture on the right. Click on left and right arrows to scroll through the pictures. Once you have found the match, click on the Submit button to complete the puzzle.
+
+![Verify Puzzle](./instructionimages/06-verify-puzzle-correct.png)
+
+8. If the puzzle is completed successfully, GitHub will send you a numeric code to your email address. You'll need to enter that code to complete the registration.
+
+![Verify Code](./instructionimages/07-code.png)
+
+9. When the registration is completed, you'll see a welcome page. Select `Just me` or `Student`, then click Continue, and on the next page click Continue as well.
+
+![Welcome](./instructionimages/08-welcome.1.png)
+
+10. In the next step, you can choose your plan. Select the Free plan.
+
+![Choose Plan](./instructionimages/09-free.png)
+
+11. Congratulations! You have successfully completed the GitHub registration.
+
+![Congratulations](./instructionimages/10-final.png)
+
 
 ## Fork this repo
 
