@@ -51,11 +51,17 @@ Please follow these steps to register for GitHub. You only need an email address
 
 ## Fork this repo
 
-Click on the Fork button to create your own copy of your repo
+Go to https://aka.ms/DoITGirlsCodingSession and click on the Fork button to create your own copy of your repo
 
 ![alt text](instructionimages/imagefork.png)
 
-## Create a codespace
+![alt text](instructionimages/imageForkScreen.png)
+
+## Create a Codespace
+
+You now have a repo - this is a place for you to save your work. Now we need a place to do your work.
+
+For that, we'll create a Codespace. A codespace is a tiny computer sitting on the cloud. It spins up when you want to work, and then after you're done, it'll spin itself down.
 
 Click on the create codespace button
 
@@ -495,7 +501,15 @@ Right click on the file you want and click Open with Live Server
 
 
 
-## deploy to github pages
+## Deploy to Github Pages
+
+Now that you've got your app the way you like it, let's deploy it so you can show it to all your friends.
+
+1. First thing we need to do is push your changes over to your Github repo. At the moment, it's just sitting in your Codespace. To do that, we have to commit and push your changes as per the screenshot below. Remember to enter a meaningful message.
+
+![alt text](instructionimages/commitandpush.png)
+
+2. Once the changes are in, you now need to configure Github Pages
 
 Go to Settings
 
