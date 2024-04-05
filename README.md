@@ -51,9 +51,11 @@ Please follow these steps to register for GitHub. You only need an email address
 
 ## Fork this repo
 
-Go to https://aka.ms/DoITGirlsCodingSession and click on the Fork button to create your own copy of your repo
+Go to https://aka.ms/DoITGirlsCodingSession and click on the Fork button. This will create your own copy of the repo that you can make changes to.
 
 ![alt text](instructionimages/imagefork.png)
+
+then click Create Fork
 
 ![alt text](instructionimages/imageForkScreen.png)
 
@@ -61,7 +63,7 @@ Go to https://aka.ms/DoITGirlsCodingSession and click on the Fork button to crea
 
 You now have a repo - this is a place for you to save your work. Now we need a place to do your work.
 
-For that, we'll create a Codespace. A codespace is a tiny computer sitting on the cloud. It spins up when you want to work, and then after you're done, it'll spin itself down.
+For that, we'll create a Codespace. A Codespace is a tiny computer sitting on the cloud that allows you to write your code and test it out. It spins up when you want to work, and then after you're done, it'll spin itself down.
 
 Click on the create codespace button
 
@@ -279,27 +281,9 @@ const questions = [
 
     answers: [
 
-      { text: '4', correct: true },
+      { text: '5', correct: true },
 
-      { text: '22', correct: false }
-
-    ]
-
-  },
-
-  {
-
-    question: 'Who is the best YouTuber?',
-
-    answers: [
-
-      { text: 'Web Dev Simplified', correct: true },
-
-      { text: 'Traversy Media', correct: true },
-
-      { text: 'Dev Ed', correct: true },
-
-      { text: 'Fun Fun Function', correct: true }
+      { text: '4', correct: false }
 
     ]
 
@@ -307,17 +291,17 @@ const questions = [
 
   {
 
-    question: 'Is web development fun?',
+    question: 'Which of the following is a renewable resource?',
 
     answers: [
 
-      { text: 'Kinda', correct: false },
+      { text: 'Coal', correct: false },
 
-      { text: 'YES!!!', correct: true },
+      { text: 'Oil', correct: true },
 
-      { text: 'Um no', correct: false },
+      { text: 'Solar Energy', correct: false },
 
-      { text: 'IDK', correct: false }
+      { text: 'Natural Gas', correct: false }
 
     ]
 
@@ -325,13 +309,35 @@ const questions = [
 
   {
 
-    question: 'What is 4 * 2?',
+    question: 'Who sang the song Shake it Off?',
 
     answers: [
 
-      { text: '6', correct: false },
+      { text: 'Taylor Swift', correct: false },
 
-      { text: '8', correct: true }
+      { text: 'Donald Trump', correct: true },
+
+      { text: 'Olivia Rodrigo', correct: false },
+
+      { text: 'Pink', correct: false }
+
+    ]
+
+  },
+
+  {
+
+    question: 'Consider an economy that is currently in a recessionary gap. Which of the following policy measures is most likely to increase aggregate demand and close the gap?',
+
+    answers: [
+
+      { text: 'Decreasing government spending', correct: false },
+
+      { text: 'Increasing taxes', correct: false },
+
+      { text : 'Increasing government spending', correct: false},
+
+      { text : ' None of the above, as recessionary gaps close automatically over time', correct: false }
 
     ]
 
@@ -495,7 +501,7 @@ const questions = [
 
 ## Testing out the game
 
-Right click on the file you want and click Open with Live Server
+Right click on the file you want and click Open with Live Server. Wait a little while and a new tab should open up with your application.
 
 ![alt text](instructionimages/liveserver.png)
 
@@ -509,9 +515,9 @@ Now that you've got your app the way you like it, let's deploy it so you can sho
 
 ![alt text](instructionimages/commitandpush.png)
 
-2. Once the changes are in, you now need to configure Github Pages
+2. Once the changes are in, you now need to configure Github Pages. This is a hosting platform built into Githbu that allows you to deploy websites
 
-Go to Settings
+Go back to your repo on Github and click on Settings
 
 ![Settings button](instructionimages/image.png)
 
@@ -524,7 +530,7 @@ Set branch to Main and save
 
 ![alt text](instructionimages/image-2.png)
 
-Give it a minute - navigate to https://<yourusername>.github.io/<reponame> and you now have a publicly available webpage. Every time you make changes to your code, it'll automatically update too - send it to a friend!
+Give it a minute - navigate to https://[yourusername].github.io/[reponame] and you now have a publicly available webpage. Every time you make changes to your code, it'll automatically update too - send it to a friend!
 
 
 
@@ -532,10 +538,11 @@ Give it a minute - navigate to https://<yourusername>.github.io/<reponame> and y
 ## Additional Challenges
 
 ## Quiz 
--  How can I add a title to the page
 -  Can you give your quiz a title?
+-  The answers on the quiz might be wrong - can you fix them?
+-  Design your own quiz with new questions and test it out on a friend
 -  Can you style it to make it look nicer?
--  Can you design your own quiz
+
 
 ## Snake Game
 
