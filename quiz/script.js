@@ -142,27 +142,9 @@ const questions = [
 
     answers: [
 
-      { text: '4', correct: true },
+      { text: '5', correct: true },
 
-      { text: '22', correct: false }
-
-    ]
-
-  },
-
-  {
-
-    question: 'Who is the best YouTuber?',
-
-    answers: [
-
-      { text: 'Web Dev Simplified', correct: true },
-
-      { text: 'Traversy Media', correct: true },
-
-      { text: 'Dev Ed', correct: true },
-
-      { text: 'Fun Fun Function', correct: true }
+      { text: '4', correct: false }
 
     ]
 
@@ -170,17 +152,17 @@ const questions = [
 
   {
 
-    question: 'Is web development fun?',
+    question: 'Which of the following is a renewable resource?',
 
     answers: [
 
-      { text: 'Kinda', correct: false },
+      { text: 'Coal', correct: false },
 
-      { text: 'YES!!!', correct: true },
+      { text: 'Oil', correct: true },
 
-      { text: 'Um no', correct: false },
+      { text: 'Solar Energy', correct: false },
 
-      { text: 'IDK', correct: false }
+      { text: 'Natural Gas', correct: false }
 
     ]
 
@@ -188,13 +170,35 @@ const questions = [
 
   {
 
-    question: 'What is 4 * 2?',
+    question: 'Who sang the song Shake it Off?',
 
     answers: [
 
-      { text: '6', correct: false },
+      { text: 'Taylor Swift', correct: false },
 
-      { text: '8', correct: true }
+      { text: 'Donald Trump', correct: true },
+
+      { text: 'Olivia Rodrigo', correct: false },
+
+      { text: 'Pink', correct: false }
+
+    ]
+
+  },
+
+  {
+
+    question: 'Consider an economy that is currently in a recessionary gap. Which of the following policy measures is most likely to increase aggregate demand and close the gap?',
+
+    answers: [
+
+      { text: 'Decreasing government spending', correct: false },
+
+      { text: 'Increasing taxes', correct: false },
+
+      { text : 'Increasing government spending', correct: false},
+
+      { text : ' None of the above, as recessionary gaps close automatically over time', correct: false }
 
     ]
 
