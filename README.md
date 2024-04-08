@@ -49,7 +49,7 @@ Please follow these steps to register for GitHub. You only need an email address
 ![Congratulations](./instructionimages/10-final.png)
 
 
-## Fork this repository
+## Fork this repository (repo)
 
 Go to https://aka.ms/DoITGirlsCodingSession and click on the Fork button. This will create your own copy of the repo that you can make changes to.
 
