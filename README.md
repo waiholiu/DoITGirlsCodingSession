@@ -49,7 +49,7 @@ Please follow these steps to register for GitHub. You only need an email address
 ![Congratulations](./instructionimages/10-final.png)
 
 
-## Fork this repo
+## Fork this repository
 
 Go to https://aka.ms/DoITGirlsCodingSession and click on the Fork button. This will create your own copy of the repo that you can make changes to.
 
@@ -720,7 +720,7 @@ function keyPush(evt) {
 
 Use the live server and get it working again!
 
-## Additional cHallenges for snake game
+## Additional challenges for snake game
 
 - How can I change the colours of the dots and the background?
 - How can I slow down or speed up the snake?
